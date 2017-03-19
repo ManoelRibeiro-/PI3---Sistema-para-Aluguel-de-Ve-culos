@@ -8,55 +8,59 @@
 **Grupo de programadores:**
 
 [Manoel Ribeiro](https://github.com/ManoelRibeiro-)
+
 [Alisson Santos](www.google.com)
+
 [Gelvan Fernandes](www.google.com)
+
 [Denis Amaral](www.google.com)
+
 [Rafael Francisco](www.google.com)
 
 # Requisitos:
 
 ## Classes:
 
-	*`Veículo`
-	*`Aluguel`
-	*`Cliente`
-	*`Usuário`
+	* `Veículo`
+	* `Aluguel`
+	* `Cliente`
+	* `Usuário`
 
 ### Atributo das Classes:
 
 **Veículo:**
-	*`numero - String`
-	*`placa - String`
-	*`fabricante - String`
-	*`modelo - String`
-	*`anoModelo - int`
-	*`qtdPorts - int`
-	*`Acessorios -  String`
+	* `numero - String`
+	* `placa - String`
+	* `fabricante - String`
+	* `modelo - String`
+	* `anoModelo - int`
+	* `qtdPorts - int`
+	* `Acessorios -  String`
 
 **Aluguel:**
-	*`idAluguel - int`
-	*`veiculo - Veiculo`
-	*`dataAluguel - Date`
-	*`dataEntrega - Date`
-	*`cliente - Cliente`
-	*`entregue - char`
-	*`observacao - String`
-	*`valorPago - Decimal`
+	* `idAluguel - int`
+	* `veiculo - Veiculo`
+	* `dataAluguel - Date`
+	* `dataEntrega - Date`
+	* `cliente - Cliente`
+	* `entregue - char`
+	* `observacao - String`
+	* `valorPago - Decimal`
 
 **Cliente**
-	*`nomeCliente - String`
-	*`endereco - String`
-	*`uf - String`
-	*`telefone - String`
-	*`cpf - String`
-	*`e_mail - String`
+	* `nomeCliente - String`
+	* `endereco - String`
+	* `uf - String`
+	* `telefone - String`
+	* `cpf - String`
+	* `e_mail - String`
 
 **Usuário**
-	*`Nome - String`
-	*`Cargo - String`
-	*`Login - String`
-	*`Senha - String`
-	*`e_mail - String`
+	* `Nome - String`
+	* `Cargo - String`
+	* `Login - String`
+	* `Senha - String`
+	* `e_mail - String`
 
 ## Telas específicas:
 	* Deverá existir uma tela para consultar o faturamento dado um período específico
